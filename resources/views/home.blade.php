@@ -1,5 +1,5 @@
 <x-main>
-    <x-slot:title>Cv_Biagio_Trotta</x-slot:title>
+    <x-slot:title>CvBiagioTrotta</x-slot:title>
 
     <div class="container-fluid p-0">
         <img class="bg-custom-img" src="{{ Storage::url("public/images/image_home_complete2.jpg") }}" alt="Cv_Biagio_Trotta">
