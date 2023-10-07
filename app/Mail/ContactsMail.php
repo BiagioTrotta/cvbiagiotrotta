@@ -29,7 +29,7 @@ class ContactsMail extends Mailable
     {
         return new Envelope(
             subject: 'Contacts Mail CV',
-            from: new Address($this->email, 'User'),
+            from: new Address('noreply@example.com', 'CvWeb'),
         );
     }
 

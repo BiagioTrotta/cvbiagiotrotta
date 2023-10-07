@@ -8,7 +8,7 @@
         </div>
         <div class="offcanvas-body">
             <div class="mb-5 text-center">
-                <img class="rounded-circle" style="width: 200px; height: 200px" src="{{ Storage::url("public/images/image_developer.jpg") }}" alt="">
+                 <a href="https://ibb.co/b5JFSmZ"><img class="rounded-circle" style="width: 200px; height: 200px" src="https://i.ibb.co/jkRzcf2/image-developer.jpg" alt="image-developer" border="0"></a>
                 <div class="border border-2 my-3 rounded">
                     <h3 class="text-uppercase m-auto p-3">Biagio Trotta</h3>
                 </div>

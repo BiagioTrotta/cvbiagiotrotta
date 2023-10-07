@@ -2,7 +2,7 @@
     <x-slot:title>CvBiagioTrotta</x-slot:title>
 
     <div class="container-fluid px-0">
-        <img class="bg-custom-img" src="{{ Storage::url("public/images/image_home_complete2.jpg") }}" alt="Cv_Biagio_Trotta">
+        <img class="bg-custom-img" src="https://i.ibb.co/TTDq6r2/image-home-complete2.jpg" alt="image-home-complete2" border="0">
     </div>
     <div class="container">
         <div class="row bg-light m-2 m-md-5 px-md-5 pb-5">
@@ -11,8 +11,8 @@
                 <a class="btn btn-outline-dark border" href="#contacts" id="tasto1" onmouseover="mostraTesto1()" onmouseout="nascondiTesto1()"><i class="fa-solid fa-envelope"></i></a>
             </div>
             <div class="col-12 m-auto w-75">
-                <div class="text-center mt-5">
-                    <img class="rounded-circle border border-5 border-success" style="width: 200px; height: 200px" src="{{ Storage::url("public/images/image_developer.jpg") }}" alt="">
+		<div class="text-center mt-5">
+                     <a href="httpsdd://ibb.co/b5JFSmZ"><img class="rounded-circle border border-5 border-success" style="width: 200px; height: 200px" src="https://i.ibb.co/jkRzcf2/image-developer.jpg" alt="image-developer" border="0"></a>
                     <div class="my-3">
                         <h2>Hi, I'm <span class="text-success fw-bold">Biagio Trotta !</span>
                         </h2>
@@ -154,7 +154,7 @@
 
                 <div class="row">
                     <div class="card mb-3 mx-2" style="width: 15rem;">
-                        <img src="{{Storage::url('public/images/Nancys_Pizza.png')}}" class="card-img-top" alt="..." style="height: 8rem;">
+                        <img src="https://picsum.photos/id/160/200/300" class="card-img-top" alt="..." style="height: 8rem;">
                         <div class="card-body">
                             <h5 class="card-title">Nancy's Pizza.it</h5>
                             <p class="card-text">A showcase website for a pizzeria, offering a wide range of gourmet pizzas, focaccias, and Italian specialties. With an intuitive user interface, users can browse the menu, view delivery options, and make table reservations directly from the site.</p>
@@ -162,7 +162,7 @@
                         </div>
                     </div>
                     <div class="card mb-3 mx-2" style="width: 15rem;">
-                        <img src="{{Storage::url('public/images/Presto.png')}}" class="card-img-top" alt="..." style="height: 8rem;">
+                        <img src="https://picsum.photos/id/119/400/600" class="card-img-top" alt="..." style="height: 8rem;">
                         <div class="card-body">
                             <h5 class="card-title">Presto.it</h5>
                             <p class="card-text">Free classifieds website for buying, selling, trading goods and services. Various categories. Free account for managing ads and user interactions.</p>
@@ -170,7 +170,7 @@
                         </div>
                     </div>
                     <div class="card mb-3 mx-2" style="width: 15rem;">
-                        <img src="{{Storage::url('public/images/Devblog.png')}}" class="card-img-top" alt="..." style="height: 8rem;">
+                        <img src="https://picsum.photos/id/9/400/300" class="card-img-top" alt="..." style="height: 8rem;">
                         <div class="card-body">
                             <h5 class="card-title">HackBlog </h5>
                             <p class="card-text">Is a blogging platform dedicated to anime enthusiasts. Users can create articles about their favorite anime after free registration. The site allows interactions through comments and discussions.</p>

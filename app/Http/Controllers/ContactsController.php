@@ -31,7 +31,8 @@ class ContactsController extends Controller
 
         $email = new ContactsMail($request->subjectuser, $request->name, $request->email, $request->comments);
         //echo $request->name;
-        //return $email->render(); //Testare html della mail
+	//return $email->render(); //Testare html della mail
+	$email->from('noreply@example.com', 'CvWeb');
         Mail::to('trottabiagio94@gmail.com')->send($email); // Metodo per inviare la mail
 
         return redirect()->back()
